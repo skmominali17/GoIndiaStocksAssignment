@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# README.md for Next.js Application
 
-## Getting Started
+## Introduction
 
-First, run the development server:
+This README provides instructions on how to run the Next.js application on your local machine. Next.js is a powerful React framework that enables features such as server-side rendering and generating static websites for React-based web applications.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ensure you have the following installed on your system:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+1. **Clone the repository**
 
-To learn more about Next.js, take a look at the following resources:
+   Open your terminal, navigate to the directory where you want to clone the repository, and run:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   git clone https://github.com/skmominali17/GoIndiaStocksAssignment.git
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2. **Navigate to the project directory**
 
-## Deploy on Vercel
+   ```bash
+   cd goindiastocks
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+3. **Install dependencies**
+
+   Run the following command to install the necessary dependencies:
+
+   ```bash
+   npm install
+   ```
+
+## Running the Application
+
+1. **Start the development server**
+
+   Run the following command to start the Next.js development server:
+
+   ```bash
+   npm run dev
+   ```
+
+   This command starts the server in development mode. You should see output indicating that the server is running, typically on `http://localhost:3000`.
+
+2. **Access the application**
+
+   Open your web browser and navigate to `http://localhost:3000`. You should see your Next.js application running.
+
+This will serve your application on `http://localhost:3000` (or another port if 3000 is already in use).
